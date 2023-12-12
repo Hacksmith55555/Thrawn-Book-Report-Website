@@ -8,6 +8,8 @@
 </head>
 <body>
 
+
+    
     <header>
         <h1>Thrawn - Star Wars</h1>
         <img src="images/ThrawnBookCover.jpg" alt="Thrawn Cover" id="cover-image">
@@ -117,5 +119,25 @@
 
     <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
     <script src="script.js"></script>
+    <script>
+        // Create a new image element for the spaceship
+        var spaceshipCursor = new Image();
+        spaceshipCursor.src = 'images/cursor.png'; // Replace with the actual path to your spaceship image
+    
+        // Set the width and height of the spaceship cursor
+        spaceshipCursor.width = 40; // Adjust the width as needed
+        spaceshipCursor.height = 40; // Adjust the height as needed
+    
+        // Add an event listener to update the cursor position
+        document.addEventListener('mousemove', function (e) {
+          // Update the position of the spaceship cursor
+          spaceshipCursor.style.position = 'absolute';
+          spaceshipCursor.style.left = (e.pageX - spaceshipCursor.width / 2) + 'px';
+          spaceshipCursor.style.top = (e.pageY - spaceshipCursor.height / 2) + 'px';
+        });
+    
+        // Append the spaceship cursor to the body
+        document.body.appendChild(spaceshipCursor);
+      </script>
 </body>
 </html>

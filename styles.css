@@ -6,6 +6,7 @@ body {
     color: #fff;
     background: url('images/star.png') fixed;
     overflow-x:hidden;
+    cursor: none; /* Hide the default cursor */
 }
 
 header {
