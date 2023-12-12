@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    background: url('images/star.png') fixed;
+    overflow-x:hidden;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+}
+
+#cover-image {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+#intro-text {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.character {
+    background-color: #111;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.character img {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.character-info {
+    flex-grow: 1;
+}
+
+#main-characters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+#setting,
+#theme,
+#quotes,
+#reviews,
+#works-cited {
+    margin: 20px;
+}
+
+#quotes .quote {
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.review {
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}

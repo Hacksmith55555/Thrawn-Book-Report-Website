@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrawn - Star Wars</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Thrawn - Star Wars</h1>
+        <img src="images/ThrawnBookCover.jpg" alt="Thrawn Cover" id="cover-image">
+        <p id="intro-text">Welcome to the Star Wars universe. Explore the captivating story of Grand Admiral Thrawn and his journey through the galaxy.</p>
+    </header>
+
+    <section id="main-characters">
+        <h2>Main Characters</h2>
+
+        <div id="thrawn" class="character">
+            <img src="images/GrandAdmiralThrawn.jpg" alt="Grand Admiral Thrawn">
+            <div class="character-info">
+                <h3>Grand Admiral Thrawn</h3>
+                <p>Description: Brilliant tactician with a keen understanding of art and culture.</p>
+                <p>Relationship: Master strategist leading the Imperial forces.</p>
+                <p>Development: Witness the evolution of Thrawn's character and strategies.</p>
+            </div>
+        </div>
+        <div id="eli-vanto" class="character">
+            <img src="images/EliVanto.jpg" alt="Eli Vanto">
+            <div class="character-info">
+                <h3>Eli Vanto</h3>
+                <p>Description: Loyal aide with a background in languages.</p>
+                <p>Relationship: Supportive ally of Thrawn and other characters.</p>
+                <p>Development: Experience Eli's personal growth and adaptation to new challenges.</p>
+            </div>
+        </div>
+
+        <div id="arihnda-pryce" class="character">
+            <img src="images/arihndapryce.jpg" alt="Arihnda Pryce">
+            <div class="character-info">
+                <h3>Arihnda Pryce</h3>
+                <p>Description: Ambitious and resourceful, striving for power within the Empire.</p>
+                <p>Relationship: Explore Arihnda's connections with key characters.</p>
+                <p>Development: Navigate through the hurdles and transformations in Arihnda's journey.</p>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <section id="setting">
+        <h2>Setting</h2>
+        <p>Location: In A Galaxy Far Far Away.....</p>
+        <p>Timeline: 5 years after the event of Return of the Jedi.</p>
+    </section>
+
+    <section id="theme">
+        <h2>Theme</h2>
+        <p>Central themes include leadership, power, strategy, and the balance between art and war.</p>
+    </section>
+
+    <section id="quotes">
+        <h2>Three Favorite Quotes</h2>
+        <!-- Repeat the following block for each quote -->
+        <div class="quote" onclick="toggleQuote(this)">
+            <p>Quote: "In my experience, there is no such thing as luck."</p>
+            <p>Page Number: 42</p>
+            <p>Speaker: Grand Admiral Thrawn</p>
+            <p>Explanation: Thrawn's belief in strategic thinking over chance.</p>
+        </div>
+        <div class="quote" onclick="toggleQuote(this)">
+            <p>Quote: "the best path did not have to be quick as long as it was correct."</p>
+            <p>Page Number: 137</p>
+            <p>Speaker: Grand Admiral Thrawn</p>
+            <p>Explanation: He is letting himself out of the pirates' captivity with robots he has.</p>
+        </div>
+        <div class="quote" onclick="toggleQuote(this)">
+            <p>Quote: "There are things in the universe that are simply and purely evil. A warrior does not seek to understand them, or to compromise with them. He seeks only to obliterate them."</p>
+            <p>Page Number: 145</p>
+            <p>Speaker: Grand Admiral Thrawn</p>
+            <p>Explanation: Talking to himself in the final few moments of the book.</p>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Two Reviews</h2>
+        <!-- Repeat the following block for each review -->
+        <div class="review">
+            <p>Author: Star Wars Enthusiast</p>
+            <p>Date: Jan 1, 2023</p>
+            <p>Thoughts: An epic journey through the galaxy with Thrawn's genius at the forefront. A must-read for Star Wars fans.</p>
+        </div>
+        <div class="review">
+            <p>Author: Kelvin Scott</p>
+            <p>Date: March 1, 2023</p>
+            <p>Fantastic read. Honestly cannot recommend enough. It’s a real page turner from beginning to end. I could not put it down while reading the book.
+                 It has a very steady plot, engaging story, amazing characterisation and it makes you question the morality of the story throughout. 
+                You are also hooked throughout with the mystery to the identity of the main antagonist known as Nightswan. 
+                It is also fun seeing the growth of the relationship of Thrawn and Eli, acting as the Sherlock homes and John Watson of the Novel. 
+                Nightswan acting as the thorn in Thrawns side, his Moriarty of sorts. There are many emotional moments through the course of the story, as we experience thrawns journey, 
+                facing the Racism, prejudice and corruption within the Empire left over from the Clone wars. 
+                This book also links very well into the established canon of Star Wars Rebels too. Overall I give the Book a 9/10 rating. A must read if you haven’t already. Xx</p>
+        </div>
+        <div class="review">
+            <p>Author: Imperial Cadet</p>
+            <p>Date: Dec 22, 2022</p>
+            <p>Absolutely amazing book. I could not ask for a better origin story for Thrawn than this. 
+                The character development in this book is top notch. For anyone who is interested in Star Wars beyond just the movies, do yourself a favor and pick this book up.</p>
+        </div>
+    </section>
+
+    <section id="works-cited">
+        <h2>Works Cited</h2>
+        <p>Credit to the Star Wars novel series.</p>
+    </section>
+
+    <script src="https://unpkg.com/gsap@3.9.1/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
